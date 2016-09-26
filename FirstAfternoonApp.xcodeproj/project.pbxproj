@@ -12,8 +12,6 @@
 		5CE501771D999682007C7F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE501751D999682007C7F90 /* Main.storyboard */; };
 		5CE501791D999682007C7F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE501781D999682007C7F90 /* Assets.xcassets */; };
 		5CE5017C1D999682007C7F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5017A1D999682007C7F90 /* LaunchScreen.storyboard */; };
-		5CE501871D999683007C7F90 /* FirstAfternoonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE501861D999683007C7F90 /* FirstAfternoonAppTests.swift */; };
-		5CE501921D999683007C7F90 /* FirstAfternoonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE501911D999683007C7F90 /* FirstAfternoonAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		5CE5017B1D999682007C7F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE5017D1D999682007C7F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE501821D999683007C7F90 /* FirstAfternoonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAfternoonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE501861D999683007C7F90 /* FirstAfternoonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAfternoonAppTests.swift; sourceTree = "<group>"; };
-		5CE501881D999683007C7F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE5018D1D999683007C7F90 /* FirstAfternoonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAfternoonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE501911D999683007C7F90 /* FirstAfternoonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAfternoonAppUITests.swift; sourceTree = "<group>"; };
-		5CE501931D999683007C7F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5CE501701D999682007C7F90 /* FirstAfternoonApp */,
-				5CE501851D999683007C7F90 /* FirstAfternoonAppTests */,
-				5CE501901D999683007C7F90 /* FirstAfternoonAppUITests */,
 				5CE5016F1D999682007C7F90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				5CE5017D1D999682007C7F90 /* Info.plist */,
 			);
 			path = FirstAfternoonApp;
-			sourceTree = "<group>";
-		};
-		5CE501851D999683007C7F90 /* FirstAfternoonAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				5CE501861D999683007C7F90 /* FirstAfternoonAppTests.swift */,
-				5CE501881D999683007C7F90 /* Info.plist */,
-			);
-			path = FirstAfternoonAppTests;
-			sourceTree = "<group>";
-		};
-		5CE501901D999683007C7F90 /* FirstAfternoonAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5CE501911D999683007C7F90 /* FirstAfternoonAppUITests.swift */,
-				5CE501931D999683007C7F90 /* Info.plist */,
-			);
-			path = FirstAfternoonAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE501871D999683007C7F90 /* FirstAfternoonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE501921D999683007C7F90 /* FirstAfternoonAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
